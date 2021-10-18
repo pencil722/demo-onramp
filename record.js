@@ -12,7 +12,7 @@
         
         $.ajax({
             type: 'POST',
-            url: '/api/campaign/record_data?campaign=' + campaign_id,
+            url: '/api/campaign/record_data.php?campaign=' + campaign_id,
             data: JSON.stringify(dataJSON),
             contentType: 'application/json; charset=utf-8',
             dataType: 'json',
